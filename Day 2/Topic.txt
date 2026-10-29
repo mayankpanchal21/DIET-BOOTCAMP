@@ -1,0 +1,4 @@
+header , main , footer
+link to redirect other page
+list - unordered or ordered
+table - rowspan colspan
