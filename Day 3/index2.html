@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* div{
+            background-color: black;
+        }
+        p{
+            color: white;
+        }
+        div>h1{
+            color: yellow;
+        }
+        article{
+            background-color: lightblue;
+        } */
+
+        *{
+            margin: 0;
+            padding: 10px;
+            font-family: cursive;
+
+        }
+        div h1 p {
+            color: yellow;
+        }
+        #head{
+            color: red;
+        }
+        .para{
+            color: green;
+        }
+        .para2{
+            color: rgb(32, 0, 128);
+        }
+        div+p{
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <!-- use of selectos -->
+      <!-- <div>
+        <p>Hello, World!</p>
+     </div>
+     <div>
+        <h1>Welcome to second selector</h1>
+        <article>
+            <h1>
+                welcome
+            </h1>
+        </article>
+    </div>  -->
+
+    <div>
+        <h1 id="head">Hello, World!</h1>
+        <p class="para">This is a paragraph inside the div.</p>
+        <p class="para para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, possimus illum, rerum quisquam ut vero tempore officia, atque magnam veniam minus et eligendi dolorum totam.</p>
+    </div>
+    <p>i am next to div</p>
+
+</body>
+</html>
+
+<!-- id selector - unique name -->
+ <!-- class selector - multiple elements -->
+  <!-- group selector -->
+   <!-- element selector -->
+    <!-- nested/child selector - div>p -->
+      <!--after imediated  -->
